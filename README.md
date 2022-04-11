@@ -1,41 +1,37 @@
 # footballartifactsdb
 Database of football cards
 
-Database Schema
-team
--***************-
-id
-name
-create_date
-modified_date
-PK_team_id
+Database Schema <br>
+<b>team</b><br>
+id<br>
+name<br>
+create_date<br>
+modified_date<br>
+PK_team_id<br>
 
-artifact_type
--***************-
-id
-name
-create_date
-modified_date
-PK_artifact_type_id
+<b>artifact_type</b><br>
+id<br>
+name<br>
+create_date<br>
+modified_date<br>
+PK_artifact_type_id<br>
 
-artifact
--***************-
-id
-team_id
-artifact_type_id
-create_date
-modified_date
-PK_artifact_id
-FK_team_id
-FK_artifact_type_id
+<b>artifact</b><br>
+id<br>
+team_id<br>
+artifact_type_id<br>
+create_date<br>
+modified_date<br>
+PK_artifact_id<br>
+FK_team_id<br>
+FK_artifact_type_id<br>
 
-artifact_feature
--***************-
-id
-artifact_id
-description
-image_link
-create_date
-modified_date
-PK_artifact_feature_id
-FK_artifact_id
+<b>artifact_feature</b><br>
+id<br>
+artifact_id<br>
+description<br>
+image_link<br>
+create_date<br>
+modified_date<br>
+PK_artifact_feature_id<br>
+FK_artifact_id<br>
